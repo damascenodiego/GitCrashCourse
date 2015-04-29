@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import br.usp.icmc.ssc01032015.Competitor;
@@ -40,6 +42,13 @@ public class Tournament {
 				}
 			}
 		}
+		Collections.sort(competitors, new Comparator<Competitor>() {
+			@Override
+			public int compare(Competitor o1, Competitor o2) {
+				return Double.compare(o2.getCash(), o1.getCash());
+			}
+		});
+
 		print(competitors,3);
 	}
 
@@ -47,7 +56,7 @@ public class Tournament {
 		for (int j = 0; j < competitors.size() && j < i ; j++) {
 			System.out.println(competitors.get(j));
 		}
-		
+
 	}
 
 	public static void encounter(Competitor one, Competitor two){
