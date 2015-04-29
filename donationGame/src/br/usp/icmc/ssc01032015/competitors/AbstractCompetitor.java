@@ -30,13 +30,13 @@ public abstract class AbstractCompetitor implements Competitor,Comparable<Abstra
 	public abstract void informDonationFrom(Competitor s, double donation);
 
 	@Override
-	public void addCash(double amount) {
+	public final void addCash(double amount) {
 		money+=amount;
 
 	}
 
 	@Override
-	public double getCash() {
+	public final double getCash() {
 		return money;
 	}
 	
