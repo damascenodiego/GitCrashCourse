@@ -8,21 +8,18 @@ import java.util.Map;
 import br.usp.icmc.ssc01032015.Competitor;
 
 
-public class CompetitorCalcMean implements Competitor {
-	
-	double money;
+public class CompetitorCalcMean extends AbstractCompetitor {
 
-	Map<Competitor,List <Double>> donationsFrom;
+	private static final Map<Class,List <Double>> donationsFrom = new HashMap<Class, List<Double>>();
 
 	public CompetitorCalcMean() {
-		donationsFrom = new HashMap<Competitor, List<Double>>();
 	}
 
 	@Override
 	public double declareDonationTo(Competitor s) {
 		double donation = 0.0;
-		if (donationsFrom.containsKey(s) && (donationsFrom.get(s).size()!=0)) {
-			List<Double> array = donationsFrom.get(s);
+		if (donationsFrom.containsKey(s.getClass()) && (donationsFrom.get(s.getClass()).size()!=0)) {
+			List<Double> array = donationsFrom.get(s.getClass());
 			for (int i = 0; i < array.size(); i++) {
 				donation+=array.get(i);
 			}
@@ -33,24 +30,13 @@ public class CompetitorCalcMean implements Competitor {
 
 	@Override
 	public void informDonationFrom(Competitor s, double donation) {
-		if (donationsFrom.containsKey(s)) {
-			donationsFrom.get(s).add(donation);
+		if (donationsFrom.containsKey(s.getClass())) {
+			donationsFrom.get(s.getClass()).add(donation);
 		}else{
-			donationsFrom.put(s,new ArrayList<Double>());
-			donationsFrom.get(s).add(donation);
+			donationsFrom.put(s.getClass(),new ArrayList<Double>());
+			donationsFrom.get(s.getClass()).add(donation);
 		}
 
 	}
 
-	@Override
-	public void addCash(double amount) {
-		money+=amount;
-
-	}
-
-	@Override
-	public double getCash() {
-		return money;
-	}
-	
 }

@@ -3,9 +3,7 @@ package br.usp.icmc.ssc01032015.competitors;
 import br.usp.icmc.ssc01032015.Competitor;
 
 
-public class CompetitorGiveNothing implements Competitor {
-
-	double money;
+public class CompetitorGiveNothing extends AbstractCompetitor {
 
 	@Override
 	public double declareDonationTo(Competitor s) {
@@ -14,16 +12,5 @@ public class CompetitorGiveNothing implements Competitor {
 
 	@Override
 	public void informDonationFrom(Competitor s, double donation) {
-	}
-
-	@Override
-	public void addCash(double amount) {
-		money+=amount;
-
-	}
-
-	@Override
-	public double getCash() {
-		return money;
 	}
 }
