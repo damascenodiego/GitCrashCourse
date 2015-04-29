@@ -3,9 +3,7 @@ package br.usp.icmc.ssc01032015.competitors;
 import br.usp.icmc.ssc01032015.Competitor;
 
 
-public class CompetitorPlus10Percent implements Competitor {
-
-	double money;
+public class CompetitorPlus10Percent extends AbstractCompetitor {
 
 	double lastDonation;
 
@@ -26,16 +24,5 @@ public class CompetitorPlus10Percent implements Competitor {
 	@Override
 	public void informDonationFrom(Competitor s, double donation) {
 		lastDonation = donation;
-	}
-
-	@Override
-	public void addCash(double amount) {
-		money+=amount;
-
-	}
-
-	@Override
-	public double getCash() {
-		return money;
 	}
 }

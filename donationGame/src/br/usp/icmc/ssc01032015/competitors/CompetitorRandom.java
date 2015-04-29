@@ -5,9 +5,7 @@ import java.util.Random;
 import br.usp.icmc.ssc01032015.Competitor;
 
 
-public class CompetitorRandom implements Competitor {
-
-	double money;
+public class CompetitorRandom extends AbstractCompetitor {
 
 	Random rnd;
 	
@@ -25,14 +23,4 @@ public class CompetitorRandom implements Competitor {
 
 	}
 
-	@Override
-	public void addCash(double amount) {
-		money+=amount;
-
-	}
-
-	@Override
-	public double getCash() {
-		return money;
-	}
 }
