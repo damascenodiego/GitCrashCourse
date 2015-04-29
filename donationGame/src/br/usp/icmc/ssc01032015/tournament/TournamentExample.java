@@ -9,7 +9,7 @@ import br.usp.icmc.ssc01032015.competitors.CompetitorGiveNothing;
 import br.usp.icmc.ssc01032015.competitors.CompetitorPlus10Percent;
 import br.usp.icmc.ssc01032015.competitors.CompetitorRandom;
 
-public class Tournament0000000 {
+public class TournamentExample {
 
 	public static void main(String[] args) {
 		
