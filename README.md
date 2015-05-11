@@ -1,4 +1,4 @@
-# donationGame
+# Git Crash Course Example - donationGame
 
 This program runs a tournament among different strategies which play the donation game (see below). 
 
@@ -7,7 +7,7 @@ Each competitor implements an interface Competitor which can be found in the pac
 You can contribute with the donation game creating your own competitor extending the AbstractCompetitor class
 and a custom Tournament class.
 
-The tournament happens on a sequence of runs. 
+The tournament happens on a sequence of turns. 
 On each run each pair of competitors meet and must decide what to do with a money it receives. 
 Each competitor must decide what to do with R$ 10.00 and how much it will give to the other competitor. 
 
