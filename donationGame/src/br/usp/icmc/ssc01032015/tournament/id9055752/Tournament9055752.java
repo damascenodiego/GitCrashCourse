@@ -3,7 +3,11 @@ package br.usp.icmc.ssc01032015.tournament.id9055752;
 import java.util.HashMap;
 import java.util.Map;
 
-import br.usp.icmc.ssc01032015.competitors.id9055752.*;
+import br.usp.icmc.ssc01032015.competitors.id9055752.CompetitorType01;
+import br.usp.icmc.ssc01032015.competitors.id9055752.CompetitorType02;
+import br.usp.icmc.ssc01032015.competitors.id9055752.CompetitorType03;
+import br.usp.icmc.ssc01032015.competitors.id9055752.CompetitorType04;
+import br.usp.icmc.ssc01032015.competitors.id9055752.CompetitorType05;
 import br.usp.icmc.ssc01032015.tournament.Tournament;
 
 public class Tournament9055752 {
