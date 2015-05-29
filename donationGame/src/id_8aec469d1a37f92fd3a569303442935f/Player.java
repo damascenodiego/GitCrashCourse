@@ -9,7 +9,7 @@ public class Player implements Competitor {
 		return 0;
 	}
 
-	public void informDonationFom(Competitor c, double donation) {
+	public void informDonationFrom(Competitor c, double donation) {
 		
 	}
 

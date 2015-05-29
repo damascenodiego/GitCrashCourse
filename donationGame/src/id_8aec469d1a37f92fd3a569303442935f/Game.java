@@ -51,8 +51,8 @@ public class Game {
 	            	   	   //doa????????????es e recebimentos	
 	                       amount1 = players[i].declareDonationTo(players[j]);
 	                       amount2 = players[j].declareDonationTo(players[i]);
-	                       players[j].informDonationFom(players[i], amount1);
-	                       players[i].informDonationFom(players[j], amount2);                
+	                       players[j].informDonationFrom(players[i], amount1);
+	                       players[i].informDonationFrom(players[j], amount2);                
 	                       players[i].addCash(((10-amount1) + (2*amount2)));
 	                       players[j].addCash(((10-amount2) + (2*amount1)));
 	               
