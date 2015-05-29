@@ -10,7 +10,10 @@ public class PlayerType1 extends SimpleCompetitor{
 
 
 	public String ID = "14026e1ac253425e79df1d8a3090871f";
-
+	
+	public PlayerType1() {
+		this(1);
+	}
 	
 	PlayerType1(int type){
 		this.type = type;

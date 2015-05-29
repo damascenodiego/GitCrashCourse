@@ -12,6 +12,10 @@ public class PlayerType4 extends SimpleCompetitor{
 	
 	private int[] cashDispersion;
 
+	public PlayerType4() {
+		this(4);
+	}
+	
 	PlayerType4(int type){
 		this.type = type;
 		this.setTotalCash(0);

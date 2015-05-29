@@ -12,8 +12,11 @@ public class PlayerType3 extends SimpleCompetitor{
 	
 	private double donationMemory;
 
+	public PlayerType3() {
+		this(3);
+	}
 	PlayerType3(int type){
-		this.type = type;
+		this.type = 3;
 		this.donationMemory = -1;
 		this.setTotalCash(0);
 	}
