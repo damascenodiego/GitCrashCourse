@@ -1,5 +1,7 @@
 package id_6884f0fdd5ae152b4e5838f18e1c8124;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 //classe criada para implementar metodos que s?o iguais para todos os competidores
 //todos os competidores estendem essa classe.
 public class MainCompetitor implements Comparable<MainCompetitor>, Competitor {

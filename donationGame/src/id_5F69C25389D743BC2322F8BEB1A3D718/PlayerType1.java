@@ -3,6 +3,8 @@ package id_5F69C25389D743BC2322F8BEB1A3D718;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class PlayerType1 extends Player
 {   
     private Random rand = new Random();

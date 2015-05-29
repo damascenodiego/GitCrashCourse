@@ -3,6 +3,8 @@ package id_54ef1d2792fa9d19e157ff12a9c04d8f;
 import java.util.LinkedList;
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Jogador implements Competitor{
 	private int id;
 	private double fundos = 0;

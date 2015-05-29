@@ -6,6 +6,8 @@ import java.util.List;
 //import java.util.List;
 //import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament
 {
 	int matches;

@@ -1,5 +1,7 @@
 package id_fa8fd019405b205a90b1ad86be19fb9d;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 // No primeiro turno, doa 5
 // Nas proximas rodadas:
 // * Doa 3 se o outro competidor doou uma quantia menor que 5 na ?ltima rodada 

@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /**
  * Classe Torneio: onde a disputa entre os objetos ?? feita
  * Implementa os m??todos

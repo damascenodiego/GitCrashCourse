@@ -1,6 +1,8 @@
 package id_143c43b4aa5a831f05c35921c05cac3b;
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Strategy1 implements Competitor {
 
 
@@ -32,7 +34,7 @@ public class Strategy1 implements Competitor {
 	public void addCash(double amount) {
 		total += amount;
 	}
-	public double getCash() {
+	public double getTotalCash() {
 		return total;
 	}
 }

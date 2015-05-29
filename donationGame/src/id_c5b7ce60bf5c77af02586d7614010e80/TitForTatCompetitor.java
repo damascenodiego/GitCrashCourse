@@ -3,6 +3,8 @@ package id_c5b7ce60bf5c77af02586d7614010e80;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class TitForTatCompetitor extends AbstractCompetitor
 {
 

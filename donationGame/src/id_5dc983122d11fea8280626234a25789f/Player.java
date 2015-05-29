@@ -3,6 +3,8 @@ package id_5dc983122d11fea8280626234a25789f;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Player implements Competitor {
 	protected double myDonation;
 	protected double enemyDonation;

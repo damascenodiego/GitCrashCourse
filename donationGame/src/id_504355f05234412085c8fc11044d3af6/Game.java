@@ -3,6 +3,8 @@ package id_504355f05234412085c8fc11044d3af6;
 import java.util.Arrays;
 import java.util.Comparator;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Game
 {
 	private int nRounds;

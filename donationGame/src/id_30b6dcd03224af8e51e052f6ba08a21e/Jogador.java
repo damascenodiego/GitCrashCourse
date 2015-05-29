@@ -2,6 +2,8 @@ package id_30b6dcd03224af8e51e052f6ba08a21e;
 
 import java.util.Arrays;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public abstract class Jogador {
 	/*
 	 * Esta classe ?? a classe-base para os Jogadores1~5.

@@ -10,8 +10,8 @@ public class CustomComparator implements Comparator<Map.Entry<String, Player>> {
 	}
 	
 	public int compare(Map.Entry<String, Player> m1, Map.Entry<String, Player> m2) {
-		Double cp1 = (Double)(m1.getValue().getCash());
-		Double cp2 = (Double)(m2.getValue().getCash());
+		Double cp1 = (Double)(m1.getValue().getTotalCash());
+		Double cp2 = (Double)(m2.getValue().getTotalCash());
 		
 		return cp2.compareTo(cp1);
 	}

@@ -3,6 +3,8 @@ import java.util.HashSet;
 import java.util.Random;
 import java.util.Set;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class Rand extends CompetitorCore implements Competitor{
 	
 	Rand()

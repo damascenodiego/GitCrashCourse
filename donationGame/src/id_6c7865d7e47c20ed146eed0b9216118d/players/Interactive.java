@@ -79,7 +79,7 @@ public class Interactive implements Competitor {
         cash += amount;
     }
 
-	public double getCash() {
+	public double getTotalCash() {
         return cash;
     }
 

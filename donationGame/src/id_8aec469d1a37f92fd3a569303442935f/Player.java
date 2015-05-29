@@ -1,5 +1,7 @@
 package id_8aec469d1a37f92fd3a569303442935f;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Player implements Competitor {
 	int strategy_number;
 	

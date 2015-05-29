@@ -3,6 +3,8 @@ package id_f48e66ad4d196743b49e55a7fd991109;
 import java.util.Deque;
 import java.util.LinkedList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class CrazyM extends CompetitorPrototype implements Competitor{
     private boolean fourth = true;
     private boolean third = true;

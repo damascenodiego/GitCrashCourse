@@ -5,6 +5,8 @@
  */
 package id_1371da62d1a33762ef96541d44c551f4;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /*
 Jogador que utiliza a estrat??????gia tipo 4( TitForTatDoMal ):
 Come??????a doando 0, e a partir dai , doa o valor doado a ele na rodada anterior

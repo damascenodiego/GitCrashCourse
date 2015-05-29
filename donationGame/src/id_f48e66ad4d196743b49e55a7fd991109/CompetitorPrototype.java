@@ -4,6 +4,8 @@ import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class CompetitorPrototype{
     protected double total=0;
     protected Set<Competitor> opponents = Collections.synchronizedSet(new LinkedHashSet<Competitor>());

@@ -7,6 +7,8 @@
 
 package id_46aebc04b97509660337c196208e7ab1;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /**
  *
  * @author AUGUSTO

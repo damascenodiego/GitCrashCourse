@@ -1,5 +1,7 @@
 package id_6884f0fdd5ae152b4e5838f18e1c8124;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 //caracter?sticas do jogador 3 (Mineiro)
 public class Mineiro extends MainCompetitor implements Competitor {
 	private int matchups;

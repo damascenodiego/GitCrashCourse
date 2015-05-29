@@ -1,5 +1,7 @@
 package id_afd29ea84776a187e29706c4df0b957b;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class PlayerCollabA extends Player{
 
 	private Competitor master = null;

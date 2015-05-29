@@ -2,6 +2,8 @@ package id_58ee9001476ff8fafc38bcc109556764;
 
 import java.util.Arrays;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Game {
 
     Competitor[] list;

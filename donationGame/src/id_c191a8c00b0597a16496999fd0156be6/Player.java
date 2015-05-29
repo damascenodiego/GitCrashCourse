@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 
 
 public class Player implements  Competitor {

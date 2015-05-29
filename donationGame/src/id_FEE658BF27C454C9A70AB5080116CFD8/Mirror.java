@@ -2,6 +2,8 @@ package id_FEE658BF27C454C9A70AB5080116CFD8;
 import java.util.HashMap;
 import java.util.Map;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class Mirror extends CompetitorCore implements Competitor
 {	
 	Map<Competitor, Double> m;

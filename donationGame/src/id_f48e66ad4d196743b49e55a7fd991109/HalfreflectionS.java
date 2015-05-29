@@ -3,6 +3,8 @@ package id_f48e66ad4d196743b49e55a7fd991109;
 import java.util.Deque;
 import java.util.LinkedList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class HalfreflectionS extends CompetitorPrototype implements Competitor{
     private boolean cycled = false;
     private int masterID = -2;

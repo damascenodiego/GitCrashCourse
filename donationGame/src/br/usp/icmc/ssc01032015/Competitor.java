@@ -8,5 +8,5 @@ public interface Competitor {
 	// Adds the amount of cash
 	void addCash(double amount);
 	// Get the amount of cash this competitor has
-	double getCash();
+	double getTotalCash();
 }

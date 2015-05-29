@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 
 public class Torneio {
     

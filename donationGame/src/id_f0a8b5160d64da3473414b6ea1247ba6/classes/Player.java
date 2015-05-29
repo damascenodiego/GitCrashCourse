@@ -36,7 +36,7 @@ public class Player implements Competitor {
 		this.cash += amount;
 	}
 
-	public double getCash() {
+	public double getTotalCash() {
 		return this.cash;
 	}
 

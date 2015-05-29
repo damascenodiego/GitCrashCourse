@@ -3,6 +3,8 @@
 	Sabrina Faceroli Tridico	NUSP: 9066452
 */
 package id_14026e1ac253425e79df1d8a3090871f;
+
+import br.usp.icmc.ssc01032015.Competitor;
 	
 public class SimpleCompetitor implements Competitor, Comparable<SimpleCompetitor>{
 	private double totalCash;

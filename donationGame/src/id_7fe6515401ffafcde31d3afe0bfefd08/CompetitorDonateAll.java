@@ -1,5 +1,7 @@
 package id_7fe6515401ffafcde31d3afe0bfefd08;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class CompetitorDonateAll extends GeneralCompetitor implements Competitor
 {	
 	public CompetitorDonateAll( int strategy )

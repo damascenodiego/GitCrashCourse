@@ -6,6 +6,8 @@
 package id_823f8912a4d502ff866453d2c1bf00fa;
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /**
  *
  * @author Adriller, Allan, Hikaro

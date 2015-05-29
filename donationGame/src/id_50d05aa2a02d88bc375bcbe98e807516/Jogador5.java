@@ -2,6 +2,8 @@ package id_50d05aa2a02d88bc375bcbe98e807516;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Jogador5 extends Jogador {
 
     Random rand;

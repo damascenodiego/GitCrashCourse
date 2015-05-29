@@ -1,4 +1,7 @@
 package id_90ae014bd2408ecfab890ca6cafcdd1c;
+
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Strategy_2 implements Competitor {
 
     public double totalCash;

@@ -1,5 +1,7 @@
 package id_6884f0fdd5ae152b4e5838f18e1c8124;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 
 //caracteresticas do jogador 1 (Keijo)
 public class Keijo extends MainCompetitor implements Competitor {

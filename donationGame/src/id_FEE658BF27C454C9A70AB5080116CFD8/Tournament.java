@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament{
 	
 	private List<Competitor> comp = new ArrayList<Competitor>();
@@ -63,11 +65,11 @@ public class Tournament{
 	
 	public void displayRanking()
 	{
-		List<Competitor> copy = new ArrayList<Competitor>();
-		copy.addAll(comp);
-		Collections.sort(copy);
-		for (int i = 0; i < copy.size(); i++)
-			System.out.println(i+1 + "- " + copy.get(i).getTotalCash() + " (strategy " + copy.get(i).getStrategyId() + ")");
+//		List<Competitor> copy = new ArrayList<Competitor>();
+//		copy.addAll(comp);
+//		Collections.sort(copy);
+//		for (int i = 0; i < copy.size(); i++)
+//			System.out.println(i+1 + "- " + copy.get(i).getTotalCash() + " (strategy " + copy.get(i).getStrategyId() + ")");
 	}
 	
 }

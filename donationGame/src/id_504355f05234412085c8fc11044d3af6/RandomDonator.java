@@ -2,6 +2,8 @@ package id_504355f05234412085c8fc11044d3af6;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class RandomDonator extends CashCompetitor
 {
 	private final double min = 1.0;

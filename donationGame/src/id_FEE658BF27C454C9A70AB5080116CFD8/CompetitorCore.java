@@ -1,5 +1,7 @@
 package id_FEE658BF27C454C9A70AB5080116CFD8;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class CompetitorCore /*diz respeito a tudo que ?? comum entre todos os competidores, os quais devem todos extender esta classe */
 {
 	private double cash;

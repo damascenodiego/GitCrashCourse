@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class Tracker extends CompetitorCore implements Competitor
 {
 	Map<Competitor, Double> donation_sum;

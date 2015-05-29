@@ -11,6 +11,8 @@ package id_66e71d91899a69c022ba81568188c206;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class AlanTuring extends MyCompetitor {
 
 	public AlanTuring() {

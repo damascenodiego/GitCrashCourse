@@ -1,5 +1,7 @@
 package id_a55503a13323afae84ea77e3c49b077b;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Player implements Competitor {
 	double total;
 	double received;

@@ -1,6 +1,8 @@
 package id_afd29ea84776a187e29706c4df0b957b;
 
 import java.util.Comparator;
+
+import br.usp.icmc.ssc01032015.Competitor;
 class Ranker implements Comparator<Competitor>{
 
 	@Override

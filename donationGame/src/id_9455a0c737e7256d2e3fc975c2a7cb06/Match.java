@@ -7,6 +7,8 @@
  *-----------------------------------------------------------*/
 package id_9455a0c737e7256d2e3fc975c2a7cb06;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Match {
 
     Competitor p1, p2;

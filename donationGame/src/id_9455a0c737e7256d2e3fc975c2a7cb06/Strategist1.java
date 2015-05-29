@@ -9,6 +9,8 @@ package id_9455a0c737e7256d2e3fc975c2a7cb06;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Strategist1 extends Strategist {
     //jogador aleat??rio
 

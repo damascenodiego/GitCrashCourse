@@ -71,7 +71,7 @@ public class Tournament {
 			}
 		}
 		Collections.sort(competitors, (Competitor o1, Competitor o2) -> {
-			return Double.compare(o1.getCash(), o2.getCash());
+			return Double.compare(o1.getTotalCash(), o2.getTotalCash());
 		});
 
 		print(competitors,competitors.size());

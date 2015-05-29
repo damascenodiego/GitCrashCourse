@@ -1,5 +1,7 @@
 package id_58ee9001476ff8fafc38bcc109556764;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Player implements Competitor, Comparable<Player>{
 
     private double total_cash;

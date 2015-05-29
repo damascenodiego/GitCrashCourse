@@ -1,6 +1,8 @@
 package id_143c43b4aa5a831f05c35921c05cac3b;
 import java.util.Scanner;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class Tournament {
 	public static void main(String args[]) {
 		int players;
@@ -110,7 +112,7 @@ class Tournament {
 		//making the final score
 		for(i=0; i<players-1; i++) {
 			for(j=i+1; j<players; j++) {
-				if(bot[i].getCash() < bot[j].getCash()) {
+				if(bot[i].getTotalCash() < bot[j].getTotalCash()) {
 					aux = bot[j];
 					bot[j] = bot[i];
 					bot[i] = aux;
@@ -124,7 +126,7 @@ class Tournament {
 		//printing the final score
 		System.out.println("Final score:");
 		for(i=0; i<players; i++) {
-			System.out.println((i+1) + "-Total-cash: " + bot[i].getCash() + " Player-type:" + list[i]);
+			System.out.println((i+1) + "-Total-cash: " + bot[i].getTotalCash() + " Player-type:" + list[i]);
 		}
 	}
 }

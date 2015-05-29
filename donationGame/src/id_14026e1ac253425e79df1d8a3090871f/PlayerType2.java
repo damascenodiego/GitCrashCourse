@@ -6,6 +6,8 @@ package id_14026e1ac253425e79df1d8a3090871f;
 
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class PlayerType2 extends SimpleCompetitor{
 
 	public String ID = "14026e1ac253425e79df1d8a3090871f";

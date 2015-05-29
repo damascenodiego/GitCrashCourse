@@ -2,6 +2,8 @@ package id_4b4ef5b808a257d43d9fab537e427945;
 
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Type5 implements Competitor
 {
     /*Atributos*/

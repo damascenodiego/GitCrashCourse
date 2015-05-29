@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament {
 
 	public static void main(String[] args) {

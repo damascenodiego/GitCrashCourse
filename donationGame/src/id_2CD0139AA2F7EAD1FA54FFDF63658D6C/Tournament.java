@@ -3,6 +3,8 @@ package id_2CD0139AA2F7EAD1FA54FFDF63658D6C;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament {
 
     public static void main(String[] args) {

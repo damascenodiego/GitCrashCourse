@@ -1,6 +1,8 @@
 package id_8aec469d1a37f92fd3a569303442935f;
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /* Esse competidor doa um n??mero aleat??rio toda rodada
  */
 

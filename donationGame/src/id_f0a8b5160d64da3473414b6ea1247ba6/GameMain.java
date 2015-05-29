@@ -2,12 +2,12 @@ package id_f0a8b5160d64da3473414b6ea1247ba6;
 
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.CustomComparator;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.Iterator;
+import id_f0a8b5160d64da3473414b6ea1247ba6.classes.Player;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.strategies.S1Player;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.strategies.S2Player;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.strategies.S3Player;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.strategies.S4Player;
 import id_f0a8b5160d64da3473414b6ea1247ba6.classes.strategies.S5Player;
-import id_f0a8b5160d64da3473414b6ea1247ba6.classes.Player;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -111,7 +111,7 @@ public class GameMain {
 		NumberFormat formatter = new DecimalFormat("#0.00");
 		for (int i = 1; i <= nPlayers; i++) {
 			System.out.println(i + "o: " + (entries.get(i-1)).getValue().getName()
-					+ " " + formatter.format((entries.get(i-1)).getValue().getCash()) + " U$");
+					+ " " + formatter.format((entries.get(i-1)).getValue().getTotalCash()) + " U$");
 		}
 		
 		System.out.println("\nThank you for playing!");

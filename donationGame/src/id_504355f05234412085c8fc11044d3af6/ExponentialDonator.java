@@ -1,5 +1,7 @@
 package id_504355f05234412085c8fc11044d3af6;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class ExponentialDonator extends CashCompetitor
 {
 	private final double maxDonation = 10.0;

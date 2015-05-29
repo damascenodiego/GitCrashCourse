@@ -1,6 +1,8 @@
 package id_8aec469d1a37f92fd3a569303442935f;
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 
 /*na primeira rodada doa o magic number e nas rodadas seguintes doa a soma de
  *todas as doa????es anteriores dividida pelo n??mero de rodadas e pelo magic number

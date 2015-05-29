@@ -36,7 +36,7 @@ public abstract class AbstractCompetitor implements Competitor,Comparable<Abstra
 	}
 
 	@Override
-	public final double getCash() {
+	public final double getTotalCash() {
 		return money;
 	}
 	

@@ -1,5 +1,7 @@
 package id_50d05aa2a02d88bc375bcbe98e807516;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Jogador1 extends Jogador {
 
     public Jogador1() {

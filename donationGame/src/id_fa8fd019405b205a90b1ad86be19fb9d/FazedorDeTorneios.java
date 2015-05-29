@@ -6,6 +6,7 @@ package id_fa8fd019405b205a90b1ad86be19fb9d;
 
 import id_fa8fd019405b205a90b1ad86be19fb9d.Torneio.GameIsOverException;
 import id_fa8fd019405b205a90b1ad86be19fb9d.Torneio.MatchIterator;
+import br.usp.icmc.ssc01032015.Competitor;
 
 public class FazedorDeTorneios {
 	

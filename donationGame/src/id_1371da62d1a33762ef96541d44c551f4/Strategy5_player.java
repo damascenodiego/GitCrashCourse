@@ -6,6 +6,8 @@
 package id_1371da62d1a33762ef96541d44c551f4;
 
 import java.util.ArrayList;
+
+import br.usp.icmc.ssc01032015.Competitor;
 /*
 Jogador que utiliza a estrat??????gia tipo 5( GoodMemory ):
 O jogador come??????a doando 0, porem, ele possue uma boa memoria representada por um vetor de Pares,

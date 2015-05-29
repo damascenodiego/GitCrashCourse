@@ -4,6 +4,8 @@
 */
 package id_14026e1ac253425e79df1d8a3090871f;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class PlayerType1 extends SimpleCompetitor{
 
 

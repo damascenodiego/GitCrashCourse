@@ -4,6 +4,9 @@
  * Matheus Tornelli Andrade de Santana - 8516611
  */
 package id_1371da62d1a33762ef96541d44c551f4;
+
+import br.usp.icmc.ssc01032015.Competitor;
+
 /*
 Classe que representa um jogador generico. Todos
 os outros tipos de jogadores com estrat??gias especificas extendem

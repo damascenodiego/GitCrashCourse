@@ -2,6 +2,8 @@ package id_f48e66ad4d196743b49e55a7fd991109;
 
 import java.util.Arrays;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament{
     public static void main(String[] arg)
         {

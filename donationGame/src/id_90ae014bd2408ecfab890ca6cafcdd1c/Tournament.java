@@ -1,6 +1,8 @@
 package id_90ae014bd2408ecfab890ca6cafcdd1c;
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Tournament {
 	
 	//Reads number of turns and players from each strategy and runs createPlayers();

@@ -1,6 +1,8 @@
 package id_8aec469d1a37f92fd3a569303442935f;
 import java.util.ArrayList;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 /* Esse competidor doa 5 na primeira rodada e depois doa o que lhe foi doado na ??ltima rodada pelo
  * competidor em quest??o
  */

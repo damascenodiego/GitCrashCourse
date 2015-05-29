@@ -1,5 +1,7 @@
 package id_143c43b4aa5a831f05c35921c05cac3b;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 public class Strategy4 implements Competitor {
 
 	public String ID = "143c43b4aa5a831f05c35921c05cac3b";
@@ -18,7 +20,7 @@ public class Strategy4 implements Competitor {
 	public void addCash(double amount) {
 		total += amount;
 	}
-	public double getCash() {
+	public double getTotalCash() {
 		return total;
 	}
 }

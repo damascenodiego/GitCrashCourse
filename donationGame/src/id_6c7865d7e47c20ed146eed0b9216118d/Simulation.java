@@ -47,7 +47,7 @@ public class Simulation {
 
     private class PlayerComparator implements Comparator<Competitor> {
         public int compare(Competitor l, Competitor r) {
-            return -Double.compare(l.getCash(), r.getCash());
+            return -Double.compare(l.getTotalCash(), r.getTotalCash());
         }
     }
 
@@ -89,7 +89,7 @@ public class Simulation {
     	// Imprime os resultados
     	for(Competitor c : score) {
     		out.format("%d.%d\t%.2f\t(%s)%n", players.get(c).Type,
-                    players.get(c).Id, c.getCash(),
+                    players.get(c).Id, c.getTotalCash(),
                     c.getClass().getSimpleName());
     	}
         out.flush();

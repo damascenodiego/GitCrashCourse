@@ -10,6 +10,8 @@ package id_9455a0c737e7256d2e3fc975c2a7cb06;
 import java.util.HashMap;
 import java.util.Random;
 
+import br.usp.icmc.ssc01032015.Competitor;
+
 class Strategist5 extends Strategist {
     //jogador que tenta se adequar baseando-se na diferen??a entre as doa????es feitas e recebidas
     //inclusive, n??o doa se nada se n??o tiver recebeido nada na ??ltima rodada
