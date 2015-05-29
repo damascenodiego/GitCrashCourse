@@ -89,7 +89,7 @@ public class Tournament
 	public void rank()
 	{
 		//monta o ranking
-		Collections.sort(competitors);		
+//		Collections.sort(competitors);		
 	}
 	
 	public void printRanking( )
@@ -98,7 +98,7 @@ public class Tournament
 		for( int i = 0; i < competitors.size(); i++ )
 		{
 			System.out.println( (i+1) + "??" );
-			System.out.println( "strategy: " + competitors.get(i).getStrategy() );
+//			System.out.println( "strategy: " + competitors.get(i).getStrategy() );
 			System.out.println(	"cash: " + competitors.get(i).getTotalCash() );
 			System.out.println( );
 		}
