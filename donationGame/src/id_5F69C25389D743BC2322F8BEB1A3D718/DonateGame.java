@@ -183,21 +183,21 @@ public class DonateGame
         Player1.addCash(amountP1);
         Player2.addCash(amountP2);
         
-        if (checkYes(wannaWatch) == true)
-        {
-            System.out.printf("\n\n    Encontro:   player %d (tipo %d) e player %d (tipo %d)\n", 
-                                Player1.getID() + 1, Player1.getType() + 1, Player2.getID() + 1, Player2.getType() + 1);
-            System.out.printf("\n                 ## Doacoes:");
-            System.out.printf("\n                      - player %d (tipo %d) doou " + 
-                    double2DecimalPlaces(donation_P1_to_P2), Player1.getID() + 1, Player1.getType() + 1);
-            System.out.printf("\n                      - player %d (tipo %d) doou " + 
-                    double2DecimalPlaces(donation_P2_to_P1), Player2.getID() + 1, Player2.getType() + 1);
-            System.out.printf("\n\n                 ## Dinheiro recebido:");
-            System.out.printf("\n                      - player %d (tipo %d) recebeu " + 
-                    double2DecimalPlaces(amountP1), Player1.getID() + 1, Player1.getType() + 1);
-            System.out.printf("\n                      - player %d (tipo %d) recebeu " + 
-                    double2DecimalPlaces(amountP2), Player2.getID() + 1, Player2.getType() + 1);
-        }
+//        if (checkYes(wannaWatch) == true)
+//        {
+//            System.out.printf("\n\n    Encontro:   player %d (tipo %d) e player %d (tipo %d)\n", 
+//                                Player1.getID() + 1, Player1.getType() + 1, Player2.getID() + 1, Player2.getType() + 1);
+//            System.out.printf("\n                 ## Doacoes:");
+//            System.out.printf("\n                      - player %d (tipo %d) doou " + 
+//                    double2DecimalPlaces(donation_P1_to_P2), Player1.getID() + 1, Player1.getType() + 1);
+//            System.out.printf("\n                      - player %d (tipo %d) doou " + 
+//                    double2DecimalPlaces(donation_P2_to_P1), Player2.getID() + 1, Player2.getType() + 1);
+//            System.out.printf("\n\n                 ## Dinheiro recebido:");
+//            System.out.printf("\n                      - player %d (tipo %d) recebeu " + 
+//                    double2DecimalPlaces(amountP1), Player1.getID() + 1, Player1.getType() + 1);
+//            System.out.printf("\n                      - player %d (tipo %d) recebeu " + 
+//                    double2DecimalPlaces(amountP2), Player2.getID() + 1, Player2.getType() + 1);
+//        }
     }
     
     private static void createArray (Competitor_Game[] players, int[] numberPlayers, int rounds)
@@ -210,27 +210,27 @@ public class DonateGame
         
         /* initializing all type 0 */
         for (int j = 0; j < sum; j++)
-            players[j] = new PlayerType0(j, 0, rounds); 
+            players[j] = new PlayerType0(); 
         
         /* initializing all type 1 */
         sum += numberPlayers[1];
         for (int j = sum - numberPlayers[1]; j < sum; j++)
-            players[j] = new PlayerType1(j, 1, rounds); 
+            players[j] = new PlayerType1(); 
         
         /* initializing all type 2 */
         sum += numberPlayers[2];
         for (int j = sum - numberPlayers[2]; j < sum; j++)
-            players[j] = new PlayerType2(j, 2, rounds); 
+            players[j] = new PlayerType2(); 
         
         /* initializing all type 3 */
         sum += numberPlayers[3];
         for (int j = sum - numberPlayers[3]; j < sum; j++)
-            players[j] = new PlayerType3(j, 3, rounds); 
+            players[j] = new PlayerType3(); 
 
         /* initializing all type 4 */
         sum += numberPlayers[4];
         for (int j = sum - numberPlayers[4]; j < sum; j++)
-            players[j] = new PlayerType4(j, 4, rounds); 
+            players[j] = new PlayerType4(); 
     }
     
     private static void printRanking (Competitor_Game[] players)

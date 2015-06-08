@@ -1,28 +1,32 @@
 
 package id_5F69C25389D743BC2322F8BEB1A3D718;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import br.usp.icmc.ssc01032015.Competitor;
 
 public class Player implements Competitor_Game
 {
     // "protected" variables, so who extends this class is able to access
     
-    protected double historic[];
+    protected List<Double>historic;
     protected double totalAmount;
     
     protected int currentRound;
     
-    protected final int ID;
-    protected final int type;
+//    protected final int ID;
+//    protected final int type;
     
-    public Player(int ID, int type, int rounds) 
+    //public Player(int ID, int type, int rounds)
+    public Player()
     {
-        historic = new double[rounds];
+        historic = new ArrayList<Double>();
         totalAmount = 0.0;
         currentRound = 0;
         
-        this.ID = ID;
-        this.type = type;
+//        this.ID = ID;
+//        this.type = type;
     }
     
     @Override
@@ -47,7 +51,7 @@ public class Player implements Competitor_Game
     @Override
     public void addCash(double amount) 
     {
-        historic[currentRound] = amount;
+        historic.add(amount);
         totalAmount += amount;
     }
 
@@ -63,16 +67,16 @@ public class Player implements Competitor_Game
         currentRound = round;
     }    
    
-    @Override
-    public int getID() 
-    {
-        return (this.ID);
-    }
-    
-    @Override
-    public int getType()
-    {
-        return (type);
-    }
+//    @Override
+//    public int getID() 
+//    {
+//        return (this.hashCode());
+//    }
+//    
+//    @Override
+//    public int getType()
+//    {
+//        return (type);
+//    }
     
 }

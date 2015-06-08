@@ -5,9 +5,10 @@ import br.usp.icmc.ssc01032015.Competitor;
 
 public class PlayerType0 extends Player
 { 
-    public PlayerType0(int ID, int type, int rounds) 
+    public PlayerType0() 
     {
-        super(ID, type, rounds);
+//        super(ID, type, rounds);
+    	super();
     }
     
     @Override

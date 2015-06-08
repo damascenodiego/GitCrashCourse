@@ -9,9 +9,10 @@ public class PlayerType1 extends Player
 {   
     private Random rand = new Random();
     
-    public PlayerType1(int ID, int type, int rounds) 
+    public PlayerType1() 
     {
-        super(ID, type, rounds);
+//        super(ID, type, rounds);
+    	super();
     }
     
     @Override

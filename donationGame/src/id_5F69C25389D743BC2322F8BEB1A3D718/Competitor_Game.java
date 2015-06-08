@@ -7,8 +7,8 @@ public interface Competitor_Game extends Competitor
 {
     // inform to the competitor in which round/turn he is
     public void informRound(int round);
-    // return the ID of the competitor
-    public int getID();
-    // return the type of the competitor
-    public int getType();
+//    // return the ID of the competitor
+//    public int getID();
+//    // return the type of the competitor
+//    public int getType();
 }

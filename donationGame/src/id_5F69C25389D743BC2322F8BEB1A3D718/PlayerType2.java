@@ -8,9 +8,10 @@ public class PlayerType2 extends Player
     private double lastReceived;
     private double lastDonated;
     
-    public PlayerType2(int ID, int type, int rounds) 
+    public PlayerType2() 
     {
-        super(ID, type, rounds);
+//        super(ID, type, rounds);
+    	super();
         lastReceived = 0.0;
         lastDonated = 0.0;
     }

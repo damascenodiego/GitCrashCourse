@@ -50,9 +50,9 @@ public class SortCompetitor
     
     public void print()
     {
-        for (int i = vector.length - 1; i >= 0; i--)
-            System.out.printf("player %d (tipo %d) cash: " + DonateGame.double2DecimalPlaces(vector[i].getTotalCash()) 
-                              + "\n", vector[i].getID() + 1, vector[i].getType() + 1);
+//        for (int i = vector.length - 1; i >= 0; i--)
+//            System.out.printf("player %d (tipo %d) cash: " + DonateGame.double2DecimalPlaces(vector[i].getTotalCash()) 
+//                              + "\n", vector[i].getID() + 1, vector[i].getType() + 1);
     }
     
 }
