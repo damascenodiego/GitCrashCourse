@@ -21,14 +21,14 @@ public class FinalTournament {
 		//		competitors.put(id_1371da62d1a33762ef96541d44c551f4.Strategy3_player.class,	10);
 		//		competitors.put(id_1371da62d1a33762ef96541d44c551f4.Strategy4_player.class,	10);
 		//		competitors.put(id_1371da62d1a33762ef96541d44c551f4.Strategy5_player.class,	10);
-		
+
 		//// id_14026e1ac253425e79df1d8a3090871f
 		//		competitors.put(id_14026e1ac253425e79df1d8a3090871f.PlayerType1.class,	10);
 		//		competitors.put(id_14026e1ac253425e79df1d8a3090871f.PlayerType2.class,	10);
 		//		competitors.put(id_14026e1ac253425e79df1d8a3090871f.PlayerType3.class, 	10);
 		//		competitors.put(id_14026e1ac253425e79df1d8a3090871f.PlayerType4.class, 	10);
 		//		competitors.put(id_14026e1ac253425e79df1d8a3090871f.PlayerType5.class, 	10);
-				
+
 		//// id_143c43b4aa5a831f05c35921c05cac3b
 		//		competitors.put(id_143c43b4aa5a831f05c35921c05cac3b.Strategy1.class, 	10);
 		//		competitors.put(id_143c43b4aa5a831f05c35921c05cac3b.Strategy2.class, 	10);
@@ -100,19 +100,26 @@ public class FinalTournament {
 		//		competitors.put(id_54ef1d2792fa9d19e157ff12a9c04d8f...class,	10);
 
 		//// id_58ee9001476ff8fafc38bcc109556764
-		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy1.class,	10);
-		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy2.class,	10);
-		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy3.class,	10);
-		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy4.class,	10);
-		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy5.class,	10);
-		
+		//		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy1.class,	10);
+		//		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy2.class,	10);
+		//		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy3.class,	10);
+		//		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy4.class,	10);
+		//		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy5.class,	10);
+
 		//// id_5dc983122d11fea8280626234a25789f
-		competitors.put(id_5dc983122d11fea8280626234a25789f.Player1.class, 10);
-		competitors.put(id_5dc983122d11fea8280626234a25789f.Player2.class, 10);
-		competitors.put(id_5dc983122d11fea8280626234a25789f.Player3.class, 10);
-		competitors.put(id_5dc983122d11fea8280626234a25789f.Player4.class, 10);
-		competitors.put(id_5dc983122d11fea8280626234a25789f.Player5.class, 10);
-		
+		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player1.class, 10);
+		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player2.class, 10);
+		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player3.class, 10);
+		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player4.class, 10);
+		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player5.class, 10);
+
+		//// id_5F69C25389D743BC2322F8BEB1A3D718
+		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType0.class, 10);
+		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType1.class, 10);
+		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType2.class, 10);
+		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType3.class, 10);
+		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType4.class, 10);
+
 		Tournament.getInstance().runTournament(rounds,competitors);
 	}
 
