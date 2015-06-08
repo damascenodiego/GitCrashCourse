@@ -47,6 +47,9 @@ public class MyCompetitor implements Competitor {
 	public String getName() { return this.name; }
 
 	public double declareDonationTo(Competitor c) { //Indicates how much to donate to Competitor c
+		if(!this.historyTable.contains(c)){
+			CreateHistoryTable(c);
+		}
 		History h = this.historyTable.get(c);
 		h.getDonationHistory().add(0.0);
 
@@ -55,7 +58,9 @@ public class MyCompetitor implements Competitor {
 
 	public void informDonationFrom(Competitor c, double donation) { //Indicates how much was donated from Competitor c
 		this.DoCredit(donation);
-
+		if(!this.historyTable.contains(c)){
+			CreateHistoryTable(c);
+		}
 		History h = this.historyTable.get(c);
 		h.getReceiptHistory().add(donation);
 	}

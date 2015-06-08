@@ -7,8 +7,8 @@ public class Jorgao extends MainCompetitor implements Competitor {
 	private int rounds;
 	private int playerNumber;
 	
-	Jorgao(int x) {
-		playerNumber = x;
+	public Jorgao() {
+		this.playerNumber = hashCode();
 		totalCash = 0;
 		rounds = 0;
 	}

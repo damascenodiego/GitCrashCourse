@@ -12,8 +12,8 @@ public class Mineiro extends MainCompetitor implements Competitor {
 	private int playerNumber;
 	public Map<Class,Donations> mineiroDonations;
 	
-	Mineiro(int x) {
-		playerNumber = x;
+	public Mineiro() {
+		this.playerNumber = hashCode();
 		totalCash = 0;
 		matchups = 0;
 		mineiroDonations = new HashMap<Class,Donations>();

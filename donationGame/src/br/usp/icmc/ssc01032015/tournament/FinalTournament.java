@@ -114,11 +114,25 @@ public class FinalTournament {
 		//		competitors.put(id_5dc983122d11fea8280626234a25789f.Player5.class, 10);
 
 		//// id_5F69C25389D743BC2322F8BEB1A3D718
-		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType0.class, 10);
-		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType1.class, 10);
-		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType2.class, 10);
-		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType3.class, 10);
-		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType4.class, 10);
+//		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType0.class, 10);
+//		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType1.class, 10);
+//		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType2.class, 10);
+//		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType3.class, 10);
+//		competitors.put(id_5F69C25389D743BC2322F8BEB1A3D718.PlayerType4.class, 10);
+		
+		//// id_66e71d91899a69c022ba81568188c206
+//		competitors.put(id_66e71d91899a69c022ba81568188c206.AlanTuring.class, 10);
+//		competitors.put(id_66e71d91899a69c022ba81568188c206.JohnvonNeumann.class, 10);
+//		competitors.put(id_66e71d91899a69c022ba81568188c206.LarryPage.class, 10);
+//		competitors.put(id_66e71d91899a69c022ba81568188c206.LinusTorvalds.class, 10);
+//		competitors.put(id_66e71d91899a69c022ba81568188c206.MarkZuckerberg.class, 10);
+		
+		//// id_6884f0fdd5ae152b4e5838f18e1c8124
+		competitors.put(id_6884f0fdd5ae152b4e5838f18e1c8124.Dog.class, 10);
+		competitors.put(id_6884f0fdd5ae152b4e5838f18e1c8124.Jorgao.class, 10);
+		competitors.put(id_6884f0fdd5ae152b4e5838f18e1c8124.Keijo.class, 10);
+		competitors.put(id_6884f0fdd5ae152b4e5838f18e1c8124.Mineiro.class, 10);
+		competitors.put(id_6884f0fdd5ae152b4e5838f18e1c8124.Murilol.class, 10);
 
 		Tournament.getInstance().runTournament(rounds,competitors);
 	}

@@ -29,6 +29,9 @@ public class LarryPage extends MyCompetitor {
 	}
 
 	public double Search(Competitor c) {
+		if(!this.historyTable.contains(c)){
+			CreateHistoryTable(c);
+		}
 		History h = this.historyTable.get(c);
 
 		double average = 0.0;

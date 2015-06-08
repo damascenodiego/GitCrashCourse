@@ -8,8 +8,8 @@ public class Murilol extends MainCompetitor implements Competitor {
 	double lastDonation;
 	private int playerNumber;
 	
-	Murilol(int x) {
-		playerNumber = x;
+	public Murilol() {
+		this.playerNumber = hashCode();
 		totalCash = 0;
 		lastDonation = 0;
 	}

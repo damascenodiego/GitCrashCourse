@@ -11,10 +11,10 @@ public class Dog extends MainCompetitor implements Competitor {
 	public Map<Class,Donations> dogDonations;
 	private int playerNumber;
 	
-	Dog(int x) {
+	public Dog() {
 		int i;
 		totalCash = 0;
-		playerNumber = x;
+		this.playerNumber = hashCode();
 		dogDonations = new HashMap<Class,Donations>();
 //		for(i = 0; i < 5; i++)
 //			dogDonations[i] = new Donations();

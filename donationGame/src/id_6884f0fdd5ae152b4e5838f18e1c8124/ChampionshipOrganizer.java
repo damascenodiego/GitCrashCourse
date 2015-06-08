@@ -25,15 +25,15 @@ public class ChampionshipOrganizer implements Championship {
 			murilol = Integer.valueOf(murilolStr);
 			
 			for(i = 0; i < keijo; i++)
-				list.add(new Keijo(i));
+				list.add(new Keijo());
 			for(i = 0; i < mineiro; i++)
-				list.add(new Mineiro(i));
+				list.add(new Mineiro());
 			for(i = 0; i < jorgao; i++)
-				list.add(new Jorgao(i));
+				list.add(new Jorgao());
 			for(i = 0; i < dog; i++)
-				list.add(new Dog(i));
+				list.add(new Dog());
 			for(i = 0; i < murilol; i++)
-				list.add(new Murilol(i));
+				list.add(new Murilol());
 		}	
 		
 		public int getCompetitors(){

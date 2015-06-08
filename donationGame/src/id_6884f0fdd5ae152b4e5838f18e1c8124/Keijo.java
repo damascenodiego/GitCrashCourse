@@ -7,8 +7,8 @@ import br.usp.icmc.ssc01032015.Competitor;
 public class Keijo extends MainCompetitor implements Competitor {
 	private int playerNumber;
 	
-	Keijo(int x) {
-		playerNumber = x;
+	public Keijo() {
+		this.playerNumber = hashCode();
 		totalCash = 0;
 	}
 	

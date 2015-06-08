@@ -40,6 +40,9 @@ public class AlanTuring extends MyCompetitor {
 	}
 
 	public long GenerateSeed(Competitor c) {
+		if(!this.historyTable.contains(c)){
+			CreateHistoryTable(c);
+		}
 		History h = this.historyTable.get(c);
 
 		double average = 0;

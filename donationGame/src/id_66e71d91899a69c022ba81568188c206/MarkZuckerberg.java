@@ -21,6 +21,9 @@ public class MarkZuckerberg extends MyCompetitor {
 	}
 
 	public double declareDonationTo(Competitor c) {
+		if(!this.historyTable.contains(c)){
+			CreateHistoryTable(c);
+		}
 		History h = this.historyTable.get(c);
 		h.getDonationHistory().add(this.donation);
 
