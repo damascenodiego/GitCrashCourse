@@ -18,7 +18,7 @@ public class Type3 implements Competitor
     
     
     /*Metodos*/
-    Type3()
+    public Type3()
     {
         this.donation = 0.0;
         this.hist_cash = new ArrayList<>();

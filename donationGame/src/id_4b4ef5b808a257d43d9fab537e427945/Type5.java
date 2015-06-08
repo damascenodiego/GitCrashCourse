@@ -18,7 +18,7 @@ public class Type5 implements Competitor
     
     
     /*Metodos*/
-    Type5()
+    public Type5()
     {
         this.donation = 0.0;
         this.donation_received = 0.0;

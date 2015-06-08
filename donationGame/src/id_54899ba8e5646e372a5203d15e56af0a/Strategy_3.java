@@ -10,6 +10,12 @@ public class Strategy_3 extends Player{
 		this.strategy = 3;
 	}
 
+	public Strategy_3(){
+		this.totalCash = 0;
+		this.name = hashCode();
+		this.strategy = 3;
+	}
+	
 	public double declareDonationTo(Competitor c){
 		return 7;
 	}

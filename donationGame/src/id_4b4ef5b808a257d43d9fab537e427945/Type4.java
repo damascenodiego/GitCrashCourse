@@ -18,7 +18,7 @@ public class Type4 implements Competitor
     
     
     /*Metodos*/
-    Type4()
+    public Type4()
     {
         this.donation = 0.0;
         this.donation_received = 0.0;
