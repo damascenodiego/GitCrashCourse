@@ -25,6 +25,10 @@ public class Strategy5_player extends Player{
         isFirstRound = true;
         memory = new ArrayList<Pair<Competitor, Double>>();
     }
+    
+    public Strategy5_player() {
+		this(0);
+	}
 
 
     @Override

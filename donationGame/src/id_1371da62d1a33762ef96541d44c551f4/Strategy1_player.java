@@ -23,6 +23,10 @@ public class Strategy1_player extends Player{
         super(ID);
         isFirstRound = true;
     }
+    
+    public Strategy1_player() {
+		this(0);
+	}
 
     @Override
     public double declareDonationTo(Competitor c) {

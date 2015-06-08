@@ -19,6 +19,10 @@ public class Strategy2_player extends Player{
     public Strategy2_player(int ID) {
         super(ID);
     }
+    
+    public Strategy2_player() {
+		this(0);
+	}
 
     @Override
     public double declareDonationTo(Competitor c) {
