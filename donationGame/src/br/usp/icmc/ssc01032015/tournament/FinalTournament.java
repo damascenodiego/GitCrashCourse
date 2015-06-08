@@ -106,6 +106,12 @@ public class FinalTournament {
 		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy4.class,	10);
 		competitors.put(id_58ee9001476ff8fafc38bcc109556764.Strategy5.class,	10);
 		
+		//// id_5dc983122d11fea8280626234a25789f
+		competitors.put(id_5dc983122d11fea8280626234a25789f.Player1.class, 10);
+		competitors.put(id_5dc983122d11fea8280626234a25789f.Player2.class, 10);
+		competitors.put(id_5dc983122d11fea8280626234a25789f.Player3.class, 10);
+		competitors.put(id_5dc983122d11fea8280626234a25789f.Player4.class, 10);
+		competitors.put(id_5dc983122d11fea8280626234a25789f.Player5.class, 10);
 		
 		Tournament.getInstance().runTournament(rounds,competitors);
 	}
