@@ -5,9 +5,9 @@ import java.util.Set;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Rand extends CompetitorCore implements Competitor{
+public class Rand extends CompetitorCore implements Competitor{
 	
-	Rand()
+	public Rand()
 	{
 		super();
 		notrust = new HashSet<Competitor>();

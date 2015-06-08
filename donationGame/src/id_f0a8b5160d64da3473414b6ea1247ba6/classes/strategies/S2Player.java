@@ -9,11 +9,15 @@ public class S2Player extends Player {
 	public S2Player(String name) {
 		super(name);
 	}
+	
+	public S2Player() {
+		this("S2Player");
+	}
 
 	@Override
 	public double declareDonationTo(Competitor c) {
+		if(!(c instanceof Player)) return 0.0;
 		double donation = 2.5d;
-		
 		Player aux = (Player)c;
 		aux.setDonated(donation);
 		return donation;

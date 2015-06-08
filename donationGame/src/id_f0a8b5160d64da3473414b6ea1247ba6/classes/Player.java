@@ -17,19 +17,20 @@ public class Player implements Competitor {
 	}
 	
 	public double declareDonationTo(Competitor c) {
+		if(!(c instanceof Player)) return 0.0;
 		Scanner in = new Scanner(System.in);
 		double donation = in.nextDouble();
 		in.close();
-		
 		Player aux = (Player)c;
 		aux.setDonated(donation);
 		return donation;
 	}
 
 	public void informDonationFrom(Competitor c, double donation) {
+		if(!(c instanceof Player)) return;
 		Player aux = (Player)c;
-		System.out.println(donation + "U$ donated from player '" + aux.getName() + "' to "
-				+ this.name);
+//		System.out.println(donation + "U$ donated from player '" + aux.getName() + "' to "
+//				+ this.name);
 	}
 
 	public void addCash(double amount) {

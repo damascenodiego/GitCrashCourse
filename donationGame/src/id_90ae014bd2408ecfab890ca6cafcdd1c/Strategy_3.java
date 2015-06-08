@@ -6,7 +6,7 @@ public class Strategy_3 implements Competitor {
 
     public double totalCash;
 
-    Strategy_3() {
+    public Strategy_3() {
         totalCash = 0;
     }
 
@@ -15,7 +15,7 @@ public class Strategy_3 implements Competitor {
     }
 
     public void informDonationFrom(Competitor c, double donation) {
-        System.out.printf("%.2f", donation);
+        //System.out.printf("%.2f", donation);
         return;
     }
 

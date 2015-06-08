@@ -3,11 +3,11 @@ package id_FEE658BF27C454C9A70AB5080116CFD8;
 import br.usp.icmc.ssc01032015.Competitor;
 
 
-class Echoer extends CompetitorCore implements Competitor
+public class Echoer extends CompetitorCore implements Competitor
 {
 	private double last;
 	
-	Echoer()
+	public Echoer()
 	{
 		super();
 		last = 0.0;

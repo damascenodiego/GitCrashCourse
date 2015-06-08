@@ -6,13 +6,13 @@ import java.util.Set;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Tracker extends CompetitorCore implements Competitor
+public class Tracker extends CompetitorCore implements Competitor
 {
 	Map<Competitor, Double> donation_sum;
 	Map<Competitor, Integer> donation_amnt;
 	Set<Competitor> notrust;
 	
-	Tracker()
+	public Tracker()
 	{
 		super();
 		donation_sum = new HashMap<Competitor, Double>();

@@ -4,10 +4,11 @@ import java.util.Map;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Mirror extends CompetitorCore implements Competitor
+public class Mirror extends CompetitorCore implements Competitor
 {	
 	Map<Competitor, Double> m;
 	
+	public 
 	Mirror()
 	{
 		super();

@@ -9,9 +9,13 @@ public class S3Player extends Player {
 	public S3Player(String name) {
 		super(name);
 	}
+	public S3Player() {
+		this("S3Player");
+	}
 
 	@Override
 	public double declareDonationTo(Competitor c) {
+		if(!(c instanceof Player)) return 0.0;
 		double donation = 5d;
 		
 		Player aux = (Player)c;

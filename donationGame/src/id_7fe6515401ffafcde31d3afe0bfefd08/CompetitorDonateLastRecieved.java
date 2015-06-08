@@ -12,6 +12,11 @@ public class CompetitorDonateLastRecieved extends GeneralCompetitor implements C
 		this.strategy = strategy;
 	}
 	
+	public CompetitorDonateLastRecieved() {
+		this(0);
+		this.strategy = this.getClass().getName().hashCode();
+	}
+	
     public double declareDonationTo(Competitor c)
     {
     	lastDonation = lastRecieved;

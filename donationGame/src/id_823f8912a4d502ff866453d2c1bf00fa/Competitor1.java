@@ -24,7 +24,7 @@ public class Competitor1 implements Competitor{
     
     // Indicates how much was donated from Competitor c
     public void informDonationFrom(Competitor c, double donation){
-        System.out.println("Donated: " + donation);
+        //System.out.println("Donated: " + donation);
     }
     
     // Adds the amount of cash

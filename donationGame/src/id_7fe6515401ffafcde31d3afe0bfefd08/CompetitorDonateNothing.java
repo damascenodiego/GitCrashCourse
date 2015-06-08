@@ -12,6 +12,11 @@ public class CompetitorDonateNothing extends GeneralCompetitor implements Compet
 		this.strategy = strategy;
 	}
 	
+	public CompetitorDonateNothing() {
+		this(0);
+		this.strategy = this.getClass().getName().hashCode();
+	}
+	
     public double declareDonationTo(Competitor c)
     {
     	lastDonation = 0.00;

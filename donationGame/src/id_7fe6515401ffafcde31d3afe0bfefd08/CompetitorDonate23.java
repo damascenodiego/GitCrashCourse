@@ -12,6 +12,12 @@ public class CompetitorDonate23 extends GeneralCompetitor implements Competitor
 		this.strategy = strategy;
 	}
 	
+	public CompetitorDonate23()
+	{
+		this(0);
+		this.strategy = this.getClass().getName().hashCode();
+	}
+	
     public double declareDonationTo(Competitor c)
     {
     	lastDonation = (2.3 * cash) % 10;

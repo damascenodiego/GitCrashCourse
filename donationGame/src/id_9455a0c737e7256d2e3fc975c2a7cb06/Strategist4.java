@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Strategist4 extends Strategist {
+public class Strategist4 extends Strategist {
     // inicialmente doa 5
     // mas a partir da segunda rodada doa o que o outro tinha doado na ultima rodada 
 

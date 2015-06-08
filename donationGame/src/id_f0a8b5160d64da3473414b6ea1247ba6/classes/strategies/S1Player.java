@@ -9,9 +9,13 @@ public class S1Player extends Player {
 	public S1Player(String name) {
 		super(name);
 	}
+	public S1Player() {
+		this("S1Player");
+	}
 
 	@Override
 	public double declareDonationTo(Competitor c) {
+		if(!(c instanceof Player)) return 0.0;
 		double donation = 0d;
 		
 		Player aux = (Player)c;

@@ -28,7 +28,7 @@ public class Torneio {
     public static ArrayList<Competitor> CreatePlayersList(int num, int type) throws NullPointerException {
 
         if (num == 0) return null; //caso ele digitar zero, aquele player n??o joga
-        ArrayList<Competitor> playersList = null;
+        ArrayList<Competitor> playersList = new ArrayList<Competitor>();
 
         // vemos o tipo de player e criamoos um arraylist de tamanho
         switch(type) {

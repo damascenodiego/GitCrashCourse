@@ -3,10 +3,10 @@ import java.util.Random;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Traitor extends CompetitorCore implements Competitor
+public class Traitor extends CompetitorCore implements Competitor
 {
 	
-	Traitor()
+	public Traitor()
 	{
 		super();
 	}

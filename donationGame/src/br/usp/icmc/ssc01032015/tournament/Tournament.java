@@ -23,7 +23,7 @@ public class Tournament {
 
 	private static void print(List<Competitor> competitors, int i) {
 		for (int j = 0; j < competitors.size() && j < i ; j++) {
-			System.out.println(competitors.get(j));
+			System.out.println(competitors.get(j).getClass().getName());
 		}
 
 	}

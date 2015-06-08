@@ -9,7 +9,7 @@ package id_9455a0c737e7256d2e3fc975c2a7cb06;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Strategist3 extends Strategist {
+public class Strategist3 extends Strategist {
     //jogador que nunca doa nada
 
     public Strategist3()

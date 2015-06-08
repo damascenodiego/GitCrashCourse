@@ -12,7 +12,7 @@ import java.util.Random;
 
 import br.usp.icmc.ssc01032015.Competitor;
 
-class Strategist5 extends Strategist {
+public class Strategist5 extends Strategist {
     //jogador que tenta se adequar baseando-se na diferen??a entre as doa????es feitas e recebidas
     //inclusive, n??o doa se nada se n??o tiver recebeido nada na ??ltima rodada
     //na primeira rodada ele doa um valor aleat??rio
@@ -49,8 +49,8 @@ class Strategist5 extends Strategist {
         if (lastRoundReceived.containsKey(c))//ainda t?? armazenando a doa????o da ??ltima rodada
         {
 
-            double lastOut = lastRoundGiven.get(c);
-            double lastIn = lastRoundReceived.get(c);
+            double lastOut = lastRoundGiven.getOrDefault(c,0.0);
+            double lastIn = lastRoundReceived.getOrDefault(c,0.0);
             if (lastIn == 0) {//se mesmo depois de ter doado alguma coisa ainda n??o receber nada
                 //n??o doa nada tamb??m at?? receber algo
                 return 0;
